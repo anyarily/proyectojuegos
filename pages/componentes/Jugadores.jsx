@@ -67,8 +67,6 @@ function edicionfinal(){
 
 
 
-
-
     return<div  >
 
         <input onChange={(e)=>{setagregando(e.target.value)}} value={agregando}  ></input>
