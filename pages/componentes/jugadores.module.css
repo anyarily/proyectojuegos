@@ -1,11 +1,18 @@
-.nombre{
-    background-color: aqua;
-}
+
 
 .nombre{
-    width: 160px;
-    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .nombre{
-    display: flex;
+    margin: 4px;
+}
+.divpri{
+    margin:50px;
+    border: solid 2px;
+    color: rgb(49, 47, 51);
+}
+.divpri{
+    background-color: aqua;
 }

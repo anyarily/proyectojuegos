@@ -69,10 +69,10 @@ function edicionfinal(){
 
     return<div  >
 
-        <input onChange={(e)=>{setagregando(e.target.value)}} value={agregando}  ></input>
+       <input onChange={(e)=>{setagregando(e.target.value)}} value={agregando}  ></input>
          {cambioBonton? <button onClick={agregar}>agregar</button>: <button onClick={edicionfinal}>editar</button> }
      
-      {agregados.map( (e)=>{  return  <div  className={styles.nombre} key={e.id}>
+     <div  className={styles.nombre}> {agregados.map( (e)=>{  return  <div className={styles.divpri}     key={e.id}>
 
         <h3>{e.nombre}  </h3>
         <button onClick={ function(){eliminar(e.id)  }  }  >
@@ -81,8 +81,9 @@ function edicionfinal(){
      <button onClick={function(){editar(e)  }}  >
         editar
      </button>
-      </div>         }    )}
+      </div>         }    )}</div>
 
+       
     </div>
 
 
