@@ -1,18 +1,20 @@
 
 
-.nombre{
-    display: flex;
+
+.general{
+      display: flex;
     align-items: center;
     justify-content: center;
 }
-.nombre{
-    margin: 4px;
+.divpri{
+display: flex;
+   justify-content: center;
+    align-items: center;
 }
 .divpri{
-    margin:50px;
-    border: solid 2px;
-    color: rgb(49, 47, 51);
-}
-.divpri{
+    margin-top: 15px;
     background-color: aqua;
+}
+.nombre{
+    margin-top: 75px;
 }
