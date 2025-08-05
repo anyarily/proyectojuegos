@@ -68,10 +68,9 @@ function edicionfinal(){
 
 
     return<div>
-   
-   
+        <h3>titulo del juego</h3>
     <div className={styles.general} ><input onChange={(e)=>{setagregando(e.target.value)}} value={agregando} ></input>
-         {cambioBonton? <button onClick={agregar}>agregar</button>: <button onClick={edicionfinal}>editar</button> }</div>
+    {cambioBonton? <button onClick={agregar}>agregar</button>: <button onClick={edicionfinal}>editar</button> }</div>
      
      <div  className={styles.nombre}> {agregados.map( (e)=>{  return  <div className={styles.divpri}    key={e.id}>
 
